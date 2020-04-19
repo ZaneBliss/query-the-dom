@@ -1,24 +1,117 @@
-.article {
-    padding: 10px;
-    border: 1px solid blue;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.article__header {
-    font-size: 1.5em;
+.header-container {
+  display: flex;
+  flex-flow: column;
 }
 
-.article__footer {
-    padding: 0 30px;
+.header-container .header {
+  width: 100%;
+  padding-top: 32px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
-.goldenrod {
-    background-color: goldenrod;
+.header-container .header #left {
+  padding-top: 1.5em;
+  font-size: 9pt;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.331);
 }
 
-.dashed {
-    border: 1px dashed black;
+.header-container .header #right {
+  font-weight: 500;
+  font-size: 10pt;
+  color: rgb(242, 125, 60);
+  padding: 13px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 3em;
+  border: solid 2px rgb(242, 125, 60);
+  letter-spacing: 2px;
+  text-decoration: none;
 }
 
-.important {
-    border: 2px red dotted;
+.header-container .header img {
+  width: 100%;
+  height: 100%;
+  max-width: 56px;
+  max-height: 54px;
+  padding-left: 17em;
+  padding-right: 12em;
+  padding-bottom: 2em;
+}
+
+.header-container .nav {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.header-container .nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.header-container .nav li {
+  margin: 0em;
+  margin-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 4em;
+  display: block;
+  list-style: none;
+  font-size: 9pt;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.571);
+}
+
+.header-container .header a {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: wrap;
+  border-top: 1px solid rgba(0, 0, 0, 0.064);
+}
+
+.wrapper .content-box {
+  padding-top: 5px;
+  margin-left: 275px;
+  margin-right: 275px;
+}
+
+.wrapper .content-box .left-content {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  padding-left: 32px;
+  flex: column;
+  border-right: 1px solid rgba(0, 0, 0, 0.064);
+  width: 65%;
+}
+
+.wrapper .content-box .left-content .the-article {
+  padding-left: 22px;
+}
+
+.wrapper .content-box .left-content .the-article .featured img {
+  width: 100%;
+  height: 100%;
+  width: 651px;
+}
+
+.wrapper .content-box .right-content {
+  display: flex;
+  flex-flow: wrap;
 }
