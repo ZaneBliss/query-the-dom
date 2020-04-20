@@ -87,6 +87,7 @@ body {
 }
 
 .wrapper .content-box {
+  display: flex;
   padding-top: 5px;
   margin-left: 275px;
   margin-right: 275px;
@@ -106,7 +107,7 @@ body {
 }
 
 .wrapper .content-box .left-content .the-article .featured img {
-  width: 100%;
+  padding-right: 4em;
   height: 100%;
   width: 651px;
 }
@@ -148,4 +149,38 @@ body {
 .wrapper .content-box .right-content {
   display: flex;
   flex-flow: wrap;
+}
+
+.right-content {
+  display: flex;
+  justify-content: right;
+  padding-top: 56px;
+  padding-left: 48px;
+  padding-bottom: 56px;
+}
+
+.right-content h1 {
+  margin-top: 0;
+  padding-top: 0;
+  letter-spacing: 1px;
+  color: rgba(90, 97, 116);
+  padding-bottom: 1em;
+}
+
+.right-content img {
+  width: 85%;
+  /* height: 100%; */
+}
+
+.right-content h3 {
+  text-transform: uppercase;
+  text-emphasis: none;
+  font-size: 10pt;
+  font-weight: 250;
+  letter-spacing: 3px;
+}
+
+.right-content h2 {
+  font-size: 24px;
+  color: rgb(90, 97, 117);
 }
