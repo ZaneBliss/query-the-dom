@@ -111,6 +111,40 @@ body {
   width: 651px;
 }
 
+.wrapper .content-box .left-content .the-article .featured .directory h2 {
+  padding: 1.5em;
+  padding-left: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  text-emphasis: none;
+  font-size: 10pt;
+  font-weight: 250;
+  letter-spacing: 3px;
+}
+
+.article__header {
+  color: rgba(90, 97, 116);
+  margin: 0;
+  padding: 0;
+  font-size: 40pt;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.article__content {
+  padding-top: 1em;
+  padding-right: 1em;
+  font-size: 16pt;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.571);
+}
+
+.article__footer {
+  font-size: 13pt;
+  padding-top: 1em;
+  color: rgb(178, 178, 178);
+}
+
 .wrapper .content-box .right-content {
   display: flex;
   flex-flow: wrap;
